@@ -18,8 +18,7 @@ import React, {Component} from 'react'
         
                  }, ()=> console.log("LOgval =", this.state.Message))
      }
-
-    
+     
 render()
 {
     return (
