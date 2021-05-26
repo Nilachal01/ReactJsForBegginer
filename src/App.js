@@ -3,6 +3,8 @@ import FuncCompo from './Components/functionComponents'
 import ClassComponet from './Components/classComponents'
 import CounterComponet from './Components/CounterComponent'
 import ListOfComponent from './Components/ListOfDataComponent'
+import FormController from './Components/FormsComponent'
+import PComponent from './Components/PComponent';
 
 
 function App() {
@@ -13,6 +15,10 @@ function App() {
         <ClassComponet name="Nila" id="03"/>
         <CounterComponet/>
       <ListOfComponent datalist="Check/"></ListOfComponent>
+      
+      <FormController/>
+
+      <PComponent/>
     </div>
   );
 }
