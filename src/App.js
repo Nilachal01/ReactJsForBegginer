@@ -7,6 +7,8 @@ import FormController from './Components/FormsComponent'
 import PComponent from './Components/PComponent';
 import PureComponents from './Components/PureComponents';
 import MemoComponent from './Components/MemoComponent';
+import RefCompnent from './Components/RefCompnent';
+import PRefComponent from './Components/PRefComponent';
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <PComponent/>
         <PureComponents/>
         <MemoComponent/>
+        <RefCompnent/>
+        <PRefComponent/>
         
 
     </div>
