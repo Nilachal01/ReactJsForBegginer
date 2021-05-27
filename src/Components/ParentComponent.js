@@ -9,6 +9,7 @@ class ParentComponent extends Component
 
     render()
     {
+        console.log("ParentComponent")
         return <div className="abc"><h1>I am {this.props.detail.Name} and I'm {this.props.detail.Age} year old and Unique {this.props.unuekey}</h1></div> 
     }
 

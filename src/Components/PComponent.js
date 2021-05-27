@@ -18,6 +18,7 @@ class PComponent extends Component
 
     render()
     {
+        console.log("PComponent")
         return (
             <div>
                 <CComponent greetparent={this.GreetMethod} />

@@ -23,6 +23,7 @@ class CounterComponet extends Component
 
     render()
     {
+        console.log("counterComponent")
         return(
             <div>
                 Count is {this.state.MessegesCount} <br/>

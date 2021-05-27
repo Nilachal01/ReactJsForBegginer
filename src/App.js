@@ -5,6 +5,9 @@ import CounterComponet from './Components/CounterComponent'
 import ListOfComponent from './Components/ListOfDataComponent'
 import FormController from './Components/FormsComponent'
 import PComponent from './Components/PComponent';
+import PureComponents from './Components/PureComponents';
+import MemoComponent from './Components/MemoComponent';
+
 
 
 function App() {
@@ -14,11 +17,13 @@ function App() {
         <FuncCompo name="Neel" id="01"></FuncCompo>
         <ClassComponet name="Nila" id="03"/>
         <CounterComponet/>
-      <ListOfComponent datalist="Check/"></ListOfComponent>
-      
-      <FormController/>
+        <ListOfComponent datalist="Check/"></ListOfComponent>
+        <FormController/>
+        <PComponent/>
+        <PureComponents/>
+        <MemoComponent/>
+        
 
-      <PComponent/>
     </div>
   );
 }

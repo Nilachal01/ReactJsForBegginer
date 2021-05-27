@@ -29,15 +29,16 @@ import React, {Component} from 'react'
      
 render()
 {
+    console.log("classComponent")
     return (
-        <div>
+        <>
             {this.state.Message}
             {this.state.Messages}
             <h1>{this.props.name} React from class Components with id {this.props.id}</h1>
             
             <button onClick = {this.UpdateMessage}>Update</button>
             <button onClick = {this.UpdateMessages}>Updates</button>
-        </div>
+        </>
         
     )
     

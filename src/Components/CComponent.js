@@ -9,6 +9,7 @@ class CComponent extends Component
 
     render()
     {
+        console.log("CComponent")
         return (
             <div>
                 <button onClick={()=>this.props.greetparent('abb')}>Greet Parent Button</button>
@@ -19,3 +20,6 @@ class CComponent extends Component
 }
 
 export default CComponent
+
+
+

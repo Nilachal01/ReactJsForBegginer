@@ -41,6 +41,7 @@ class FormController extends Component
 
 render()
 {
+    console.log("formsComponent")
     return (<div>
         <h3>Forms Controller</h3> <br/>
         <form onSubmit={this.SubmitForm}>

@@ -10,6 +10,7 @@ class ListOfComponent extends Component
 
     render()
     {
+        console.log("ListofComponent")
         let ListData=[
             { 
                 id:1,
