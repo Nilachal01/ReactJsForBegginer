@@ -9,6 +9,7 @@ import PureComponents from './Components/PureComponents';
 import MemoComponent from './Components/MemoComponent';
 import RefCompnent from './Components/RefCompnent';
 import PRefComponent from './Components/PRefComponent';
+import PortalComponent from './Components/PortalComponent';
 
 
 
@@ -26,7 +27,7 @@ function App() {
         <MemoComponent/>
         <RefCompnent/>
         <PRefComponent/>
-        
+        <PortalComponent/>
 
     </div>
   );
