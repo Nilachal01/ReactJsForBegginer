@@ -10,13 +10,18 @@ import MemoComponent from './Components/MemoComponent';
 import RefCompnent from './Components/RefCompnent';
 import PRefComponent from './Components/PRefComponent';
 import PortalComponent from './Components/PortalComponent';
+import HOCComponent1 from './Components/HOCComponent1';
+import HOCComponet2 from './Components/HOCComponet2';
+import GetDataComponent from './Components/GetDataComponent';
+
+
 
 
 
 function App() {
   return (
     <div className="App">
-      
+      <GetDataComponent/>
         <FuncCompo name="Neel" id="01"></FuncCompo>
         <ClassComponet name="Nila" id="03"/>
         <CounterComponet/>
@@ -28,6 +33,8 @@ function App() {
         <RefCompnent/>
         <PRefComponent/>
         <PortalComponent/>
+        <HOCComponet2/>
+        <HOCComponent1/>
 
     </div>
   );
